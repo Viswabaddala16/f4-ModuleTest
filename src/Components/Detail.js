@@ -50,8 +50,8 @@ const Detail = () => {
                             onClick={handleUserInfoClick}
                             className={activeButton === "userinfo" ? "active" : "infoBtn"}
                         >User Info</button>
-                        {showBody && <p className="para">{post.body}</p>}
-                        {showUserId && <p className="para">Post was posted by UserId: {post.userId}</p>}
+                        {showBody  && <p className="para">{post.body}</p>}
+                        {showUserId  && <p className="para">Post was posted by UserId: {post.userId}</p>}
                     </div>
                 </div>
 

@@ -7,7 +7,7 @@ export const fetchDataRequest = () => {
         type: FETCH_DATA_REQUEST
     }
 }
-
+// dddfhdf dfj
 export const fetchDataSuccess = (data) => {
     return{
         type: FETCH_DATA_SUCCESS,
